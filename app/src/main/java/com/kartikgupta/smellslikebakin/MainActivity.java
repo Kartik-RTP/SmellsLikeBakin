@@ -13,13 +13,14 @@ public class MainActivity extends LoggingActivity  implements ListFragment.OnRec
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        ListFragment listFragment = new ListFragment();
-        FragmentManager fragmentManager = getFragmentManager();
-        FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.placeholder,listFragment);
-        fragmentTransaction.commit();
-
+        ListFragment savedFragment = (ListFragment) getFragmentManager().findFragmentById(R.id.placeholder);
+        if(savedFragment==null) {
+            ListFragment listFragment = new ListFragment();
+            FragmentManager fragmentManager = getFragmentManager();
+            FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.add(R.id.placeholder, listFragment);
+            fragmentTransaction.commit();
+        }
     }
 
     @Override

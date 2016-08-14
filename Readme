@@ -5,3 +5,4 @@ The concepts / Features of android tested out here
 2)Adding those fragments dynamically by using a viewgroup as a placeholder
 3)Using a RecyclerView (remember to add dependency statement) and LinearLayoutManager for it to act as a list
 4)Making a custom adabter for RecyclerView
+5)Brief overview of Fragment lifecycle ---can be used for later understanding it.
