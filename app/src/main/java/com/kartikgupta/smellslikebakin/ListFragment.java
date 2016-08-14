@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 /**
  * Created by kartik on 14/8/16.
  */
-public class ListFragment extends Fragment {
+public class ListFragment extends LoggingFragment {
 
 
     public interface OnRecipeSelectedInterface{
