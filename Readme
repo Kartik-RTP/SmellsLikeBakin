@@ -6,3 +6,5 @@ The concepts / Features of android tested out here
 3)Using a RecyclerView (remember to add dependency statement) and LinearLayoutManager for it to act as a list
 4)Making a custom adabter for RecyclerView
 5)Brief overview of Fragment lifecycle ---can be used for later understanding it.
+6)Glimpse of viewPager and FragmentPagerAdapter
+7)Fixing back button issues with fragments - using Regular fragments with "Activity " class (but losing the default Action Bar in this case) and "Support-v4" fragments with "AppCombatActvity" instead of overriding the "OnBackPressed" function.
