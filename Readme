@@ -8,3 +8,4 @@ The concepts / Features of android tested out here
 5)Brief overview of Fragment lifecycle ---can be used for later understanding it.
 6)Glimpse of viewPager and FragmentPagerAdapter
 7)Fixing back button issues with fragments - using Regular fragments with "Activity " class (but losing the default Action Bar in this case) and "Support-v4" fragments with "AppCombatActvity" instead of overriding the "OnBackPressed" function.
+8)Added TabLayout from Design Support Library and set it up with Fragment Pager Adapter for easy navigation among Fragments
