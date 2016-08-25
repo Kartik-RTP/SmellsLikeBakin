@@ -10,6 +10,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.kartikgupta.smellslikebakin.extra_logging_files.LoggingFragment;
+
 /**
  * Created by kartik on 14/8/16.
  */
